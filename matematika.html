@@ -4,10 +4,11 @@
     <script src="/docs/5.3/assets/js/color-modes.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Riski Math Blog-Bab0</title>
+    <title>Riski Math Blog-Matematika</title>
     <link rel="icon" href="images/Icon Website.png" type="image/x-icon" />
     <meta name="robots" content="max-image-preview:large" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-tentangku.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -16,7 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\(","\)"]] } });
+      MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$']] } });
     </script>
     <script
       type="text/javascript"
@@ -150,13 +151,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tentangku.html">Tentangku</a>
+              <a class="nav-link" href="tentangku.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="matematika.html">Matematika</a>
+              <a class="nav-link" href="matematika.html">Mathematics</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="penelitian.html">Penelitian</a>
+              <a class="nav-link" href="penelitian.html">Research</a>
             </li>
             <!-- 
               <li class="nav-item dropdown">
@@ -191,47 +192,46 @@
       </div>
     </nav>
 
-    <main class="container">
+    <main class="container-sm">
        <div class="row g-5">
         <div class="col-md-8">
-          <h3 class="pb-4 mb-4 fst-italic border-bottom">Bab 0</h3>
-
-          <article class="blog-post">
-            <h2 class="display-5 link-body-emphasis mb-1">Hallo Everyone!</h2>
-            <p class="blog-post-meta">
-              14 February 2024 by
-              <a
-                href="https://www.facebook.com/profile.php?id=61554460336079"
-                target="_blank"
-                >Riski</a
-              >
-            </p>
-            <p>
-              I am Lalu Riski Wirendra Putra, a graduate with a Bachelor's degree in Mathematics who is interested in algebra and graph theory.
-            </p>
-            <p>
-              On this website, I share research, projects, and writings related to mathematics. If you are interested in mathematics, algebra,
-              and graph theory, you are in the right place!
-            </p>
-            <div class="text-center">
-              <img
-                src="images/Fotoku.png"
-                width="100%"
-                height="auto"
-                class="rounded"
-              />
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">Mathematics</h3> 
+           
+            <div class="album py-5 bg-body-tertiary">
+              <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="matematika/images/Gambar Graf Konigsberg.png" />
+                      <div class="card-body">
+                        <p class="card-text">If we imagine a network of MRT (Mass Rapid Transit) stations, we can represent these stations as points and the routes connecting two stations as lines. This network of points and lines is what we call a graph.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" ><a href="graf.html" >Read</a></button>
+                             </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="matematika/images/degree graph.png" />
+                      <div class="card-body">
+                        <p class="card-text">Previously, we have learned that a graph is a set of points called vertices connected by lines called edges. In this article, we will discuss the degree of a vertex in a graph. The degree of a vertex is the number of edges incident to that vertex</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" ><a href="DerajatGraf.html" >Read</a></button>
+                             </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <hr />
-            <p>
-              If you are interested in my research, you can visit the
-              <a href="penelitian.html">Research</a> page. If you are interested in mathematics, you can visit the
-              <a href="matematika.html">Mathematics</a> page. If you want to know
-              more about me, you can visit the
-              <a href="tentangku.html">About Me</a> page.
-            </p>
-          </article>
         </div>
-      </div>
     </main>
 
     <footer
@@ -250,8 +250,8 @@
       </div>
 
       <div class="col mb-3">
-        <p>
-          <a href="index.html">
+        <p class="nav-item active">
+          <a class="nav-link" href="index.html">
             <b>Riski Math Blog</b>
           </a>
         </p>
@@ -277,8 +277,7 @@
 
       <div class="col mb-3">
         <p>
-          "Be a person that is full of curiosity, seek, dig,
-          ask, find all things in this world."
+          "Be a person full of curiosity, seek, dig, ask, discover all things in this world."
           <br />
           L. R. W. Putra
         </p>
